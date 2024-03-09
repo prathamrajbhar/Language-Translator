@@ -19,9 +19,9 @@ function App() {
       method: 'POST',
       url: 'https://google-translate1.p.rapidapi.com/language/translate/v2',
       headers: {
-        'content-type': 'application/x-www-form-urlencoded',
-        'X-RapidAPI-Key': '89a70ee230msh5cd3e527f447396p19d58cjsnab0cbda29d4e',
-        'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
+        'content-type': '',
+        'X-RapidAPI-Key': '',
+        'X-RapidAPI-Host': ''
       },
       data: encodeParams
     };
@@ -42,8 +42,8 @@ function App() {
       method: 'GET',
       url: 'https://google-translate1.p.rapidapi.com/language/translate/v2/languages',
       headers: {
-        'X-RapidAPI-Key': '89a70ee230msh5cd3e527f447396p19d58cjsnab0cbda29d4e',
-        'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
+        'X-RapidAPI-Key': '',
+        'X-RapidAPI-Host': ''
       }
     };
 
