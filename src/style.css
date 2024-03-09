@@ -1,0 +1,108 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.newContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 40px;
+    height: 100vh;
+    background-color: #201658;
+}
+
+.newTitle{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form group styles */
+.newFormGroup {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.flexLanguageBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.newRow {
+    width: 48%;
+}
+
+.formControl {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+.newInputBox {
+    padding: 8px 12px;
+    text-transform: uppercase;
+    background: #333;
+    color: #fff;
+    border: none;
+}
+
+/* Text area styles */
+.flexArea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.newAreaBox {
+    margin-bottom: 10px;
+    height: 150px;
+    padding: 8px 12px;
+    background: #333;
+    color: #fff;
+    border: none;
+    resize: none;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+.newAreaBox::placeholder {
+    color: #fff;
+}
+/* Button styles */
+.newTranslateBtn {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #070F2B;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newTranslateBtn:hover {
+    background-color: #211C6A;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .flexLanguageBox {
+        flex-direction: column;
+    }
+
+    .newRow {
+        width: 100%;
+    }
+}
